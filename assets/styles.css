@@ -1,0 +1,165 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+#sobre-mi img {
+    display: block;
+    align-self: start;
+    margin-left: 200px;
+    margin-top: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.enlaces {
+    margin-top: 5px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    margin: 40px 20px;
+}
+
+/* Proyectos */
+.proyecto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.imagen-proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centrar el texto (opcional) */
+}
+
+.imagen-proyecto img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 300px;
+}
+
+.descripcion-proyecto {
+    grid-column: span 2; /* Ocupa las columnas 2 y 3 */
+}
+
+.colores-subtitulo{
+    color: cornflowerblue;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* Habilidades */
+#habilidades {
+    margin: 20px 10px;
+
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilidad {
+    text-align: center;
+}
+
+.habilidad img {
+    max-width: 100px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 80px;
+    width: 80px;
+}
+
+.habilidad p {
+    margin-top: 10px;
+}
+
+
+/* Contacto */
+form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
